@@ -20,6 +20,8 @@ if sys.version_info[0] >= 3:
 import ply.lex as lex
 import ply.yacc as yacc
 import os
+def divide (x,y):
+    return x/y
 
 def  multiply(x,y):
  return x*y
