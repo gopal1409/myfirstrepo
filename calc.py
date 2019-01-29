@@ -21,8 +21,9 @@ import ply.lex as lex
 import ply.yacc as yacc
 import os
 
-
-class Parser(object):
+def  multiply(x,y):
+ return x*y
+ Parser(object):
     """
     Base class for a lexer/parser that has the rules defined as methods
     """
